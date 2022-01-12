@@ -17,9 +17,9 @@ async def join(client, message):
         return
     try:
         await USER.join_chat(link)
-        await message.reply("**Userbot Joined**")
+        await message.reply("**Adudn Joined**")
     except UserAlreadyParticipant:
-        await message.reply("**Userbot Udah join Disini**")
+        await message.reply("**Adudin Udah join Disini**")
 
 
 @Client.on_message(filters.command(["opengc"], prefixes=f"{HNDLR}"))
@@ -40,5 +40,5 @@ async def opengc(client, message):
         )
     except Exception:
         await message.reply(
-            "**Error:** Add userbot as admin of your group/channel with permission **Can manage voice chat**"
+            "**Error:** Add Adudin as admin of your group/channel with permission **Can manage voice chat**"
         )
