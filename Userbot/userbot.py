@@ -38,7 +38,7 @@ async def ping(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m_reply.edit(
-        f"<b>🏓 PONG</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ AKTIF</b> - `{uptime}`"
+        f"<b>🏓 Adudin</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ AKTIF</b> - `{uptime}`"
     )
 
 
@@ -56,7 +56,7 @@ async def restart(client, m: Message):
     await loli.edit("7")
     await loli.edit("8")
     await loli.edit("9")
-    await loli.edit("**✅ Userbot Di Restart Ulang**")
+    await loli.edit("**✅ Adudin Di Restart Ulang**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 
@@ -65,7 +65,7 @@ async def restart(client, m: Message):
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<b>👋 Hallo {m.from_user.mention}!
+<b>👋 Hallo Beb {m.from_user.mention}!
 
 🛠 MENU BANTUAN MUSIC PLAYER
 
@@ -93,21 +93,21 @@ async def help(client, m: Message):
 async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
-<b>👋 Hallo {m.from_user.mention}!
+<b>👋 Hallo Beb {m.from_user.mention}!
 
 🗃️ Music Dan Video Player UserBot
 
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
 👩‍💻 Dipersembahkan Oleh 
-• [Zaen](https://t.me/Mafia_TobaTZ)
+• [Adudin](https://t.me/Adudin21)
 
 📝 Persyaratan
 • Python 3.8+
 • FFMPEG
 • Nodejs v16+
 
-[Repo Zaen-Music](https://github.com/Zaen-ubot/ZaenMusic)
+[BELANJA DI SHOPEE](https://shopee.co.id/softiespam)
 
 📝 Variabel Yang Dibutuhkan
 • `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
