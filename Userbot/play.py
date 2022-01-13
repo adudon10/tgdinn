@@ -15,7 +15,7 @@ from youtubesearchpython import VideosSearch
 
 from config import HNDLR, bot, call_py
 from Userbot.helpers.queues import QUEUE, add_to_queue, get_queue
-chat id = None
+chat_id = None
 
 AMBILFOTO = [
     "https://telegra.ph/file/9956c396644dd15db214c.jpg",
